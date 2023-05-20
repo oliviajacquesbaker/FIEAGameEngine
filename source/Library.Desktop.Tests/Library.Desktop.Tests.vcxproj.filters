@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="SListTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Foo.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="FooTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultEqualityTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultGrowthTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="HashMapTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultHashTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Bar.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DatumTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="BarTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="RTTITests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="EmptyRTTI.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedFoo.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeManagerTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonParseCoordinatorTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonIntegerParseHelper.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonTestParseHelper.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonParseHelpersTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TableParseHelperTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimeTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionListTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="DummyAction.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionWhileTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionIncrementTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="EventQueueTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="EventMessageAttributedTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ReactionAttributedTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionEventTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Foo.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="ToStringSpecializations.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="EmptyRTTI.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedFoo.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonIntegerParseHelper.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonTestParseHelper.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DummyAction.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{ae3b528d-d154-42f7-ad9c-36036c38e08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support Code">
+      <UniqueIdentifier>{f7e02c27-af4d-4e64-917b-a3b20c44b01a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestFiles">
+      <UniqueIdentifier>{75ca8b6b-0696-4364-9ebe-bd1b3a62a25b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="TestFiles\TestGameObject.json">
+      <Filter>TestFiles</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="TestFiles\TestActionWhile.json">
+      <Filter>TestFiles</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>

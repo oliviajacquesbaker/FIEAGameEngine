@@ -1,0 +1,128 @@
+{
+	"TestGameObject" :
+	{
+		"type": "Table",
+		"class" : "GameObject",
+		"value":
+		{
+			"name":
+			{
+				"type": "String",
+				"value": "test game object"
+			},
+			"children":
+			{
+				"type": "Table",
+				"value": 
+				[
+					{
+						"type": "Table",
+						"class" : "GameObject",
+						"value":
+						{
+							"name":
+							{
+								"type": "String",
+								"value": "parent game object"
+							},
+							"children":
+							{
+								"type": "Table",
+								"value":
+								[
+									{
+										"type": "Table",
+										"class" : "DummyGameObject",
+										"value":
+										{
+											"name":
+											{
+												"type": "String",
+												"value": "test dummy game object"
+											}
+										}
+									}
+								]
+							},
+						  "actions":
+						  {
+							"type":"Table",
+							"value" :
+							[
+							  {
+								"type": "Table",
+								"class" : "ActionList",
+								"value":
+								{
+									"name":
+									{
+										"type": "String",
+										"value": "test action list"
+									},
+									"actions":
+									{
+										"type": "Table",
+										"value":
+										[
+											{
+												"type": "Table",
+												"class" : "DummyAction",
+												"value":
+												{
+													"name":
+													{
+														"type": "String",
+														"value": "dummy 1"
+													}
+												}
+											},
+											{
+												"type": "Table",
+												"class" : "DummyAction",
+												"value":
+												{
+													"name":
+													{
+														"type": "String",
+														"value": "dummy 2"
+													}
+												}
+											}
+										]
+									}
+							  }
+							  },
+							  {
+								"type": "Table",
+								"class" : "DummyAction",
+								"value":
+								{
+									"name":
+									{
+										"type": "String",
+										"value": "dummy out"
+									}
+								}
+							  }
+							]
+						  }
+						}
+					},
+					{
+						"type": "Table",
+						"class" : "DummyGameObject",
+						"value":
+						{
+							"name":
+							{
+								"type": "String",
+								"value": "test dummy game object 2"
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+	
+}

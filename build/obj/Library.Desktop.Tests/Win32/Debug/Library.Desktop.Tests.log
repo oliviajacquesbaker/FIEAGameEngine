@@ -1,0 +1,42 @@
+﻿  pch.cpp
+  ActionEventTests.cpp
+  ActionIncrementTests.cpp
+  ActionListTests.cpp
+  ActionTests.cpp
+  ActionWhileTests.cpp
+  AttributedFoo.cpp
+  AttributedTests.cpp
+  Bar.cpp
+  BarTests.cpp
+  DatumTests.cpp
+  DefaultEqualityTests.cpp
+  DefaultGrowthTests.cpp
+  DefaultHashTests.cpp
+  DummyAction.cpp
+  EmptyRTTI.cpp
+  EventMessageAttributedTests.cpp
+  EventQueueTests.cpp
+  EventTests.cpp
+  FactoryTests.cpp
+  Foo.cpp
+  Generating Code...
+  Compiling...
+  FooTests.cpp
+  GameObjectTests.cpp
+  GameStateTests.cpp
+  GameTimeTests.cpp
+  HashMapTests.cpp
+  JsonIntegerParseHelper.cpp
+  JsonParseCoordinatorTest.cpp
+  JsonParseHelpersTests.cpp
+  JsonTestParseHelper.cpp
+  ReactionAttributedTests.cpp
+  RTTITests.cpp
+  ScopeTests.cpp
+  SListTests.cpp
+  TableParseHelperTests.cpp
+  TypeManagerTests.cpp
+  VectorTests.cpp
+  Generating Code...
+     Creating library C:\Dev\Students\CH19\Olivia.Jacques-Baker\Prog2\build\bin\Library.Desktop.Tests\Win32\Debug\Library.Desktop.Tests.lib and object C:\Dev\Students\CH19\Olivia.Jacques-Baker\Prog2\build\bin\Library.Desktop.Tests\Win32\Debug\Library.Desktop.Tests.exp
+  Library.Desktop.Tests.vcxproj -> C:\Dev\Students\CH19\Olivia.Jacques-Baker\Prog2\build\bin\Library.Desktop.Tests\Win32\Debug\Library.Desktop.Tests.dll
